@@ -3,7 +3,7 @@ entries:
   barista:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.337545+08:00"
+    created: "2019-07-09T17:04:11.692637+08:00"
     description: A Helm chart for Kubernetes
     digest: 12f4824a8bdede5055e1b6f2a284332660a8f367561d658bc461041a02851cbe
     name: barista
@@ -13,17 +13,28 @@ entries:
   coffeeshop:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.337835+08:00"
+    created: "2019-07-09T17:04:11.693099+08:00"
     description: A Helm chart for Kubernetes
     digest: 8e32c60a6d81e05fdc8205877620d6a770f071037e8ecc2256f8c7a7c4d3d0aa
     name: coffeeshop
     urls:
     - https://raw.githubusercontent.com/cloudnativedemo/stocktrader-helm/master/charts/coffeeshop-0.1.0.tgz
     version: 0.1.0
+  coffeeshop-mcm:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-07-09T17:04:11.693333+08:00"
+    description: A Multi-cloud Coffee cup helm chart
+    digest: 2de0802f4c598e8a5fa47ea334dce8c37fa2195e80c4805aae69afd4dc23a08b
+    icon: http://vinabarista.com/_Media/coffee_med_hr.png
+    name: coffeeshop-mcm
+    urls:
+    - https://raw.githubusercontent.com/cloudnativedemo/stocktrader-helm/master/charts/coffeeshop-mcm-0.1.0.tgz
+    version: 0.1.0
   loyalty-level:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.338168+08:00"
+    created: "2019-07-09T17:04:11.693856+08:00"
     description: A Helm chart for Loyalty-Level of stock-trader application
     digest: 610422a98585b15044b9b8e3f55b9099c14cf3cba6d4a9c141235d44c94c2b9f
     name: loyalty-level
@@ -33,7 +44,7 @@ entries:
   messaging:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.338443+08:00"
+    created: "2019-07-09T17:04:11.695358+08:00"
     description: A Helm chart for Message of Stock Trader application
     digest: dfc9e09a52fa021723676443295e684338714923bcd80e8682d86620ab081e36
     name: messaging
@@ -43,7 +54,7 @@ entries:
   notification-slack:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.338871+08:00"
+    created: "2019-07-09T17:04:11.695864+08:00"
     description: A Helm chart for Notification to Slack in Stock-Trader Application
     digest: d99f797a92329b46609a21dc3f49f89d71395713f6aa4aee24e113676a57d2b3
     name: notification-slack
@@ -53,7 +64,7 @@ entries:
   portfolio:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.33919+08:00"
+    created: "2019-07-09T17:04:11.696332+08:00"
     description: A Helm chart for Kubernetes
     digest: 9c724ce1db21f4dfe380075af371f2d013be176a0dd02f11fd8040123ff47ae8
     name: portfolio
@@ -63,7 +74,7 @@ entries:
   stock-quote:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.339481+08:00"
+    created: "2019-07-09T17:04:11.696731+08:00"
     description: A Helm chart for stock-quote component in StockTrader
     digest: f350b18da3526226290cec973835b0ff427c3a29e9aaca5f01491a939cb65606
     name: stock-quote
@@ -73,7 +84,7 @@ entries:
   stocktrader:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.340369+08:00"
+    created: "2019-07-09T17:04:11.697612+08:00"
     description: A Helm chart for StockTrader
     digest: 483fa7b8ebcd490166a0f42fd95f0550767a4b0f6ec1f3e68e0813c49baa4dc5
     name: stocktrader
@@ -83,7 +94,7 @@ entries:
   stocktraderapp:
   - apiVersion: v1
     appVersion: 0.1.4
-    created: "2019-07-09T15:52:32.341549+08:00"
+    created: "2019-07-09T17:04:11.698953+08:00"
     description: A Helm chart for StockTrader Application
     digest: 6b31f8f1e0ba30bb96026d9a89b54cae5c5c8dd84be66f2978d9a53ce992f8f0
     name: stocktraderapp
@@ -92,7 +103,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.341107+08:00"
+    created: "2019-07-09T17:04:11.698558+08:00"
     description: A Helm chart for StockTrader Application
     digest: 9650da746beab07669a46a3cce5a2ffaf5a38e59207470c47ba33476c3eac839
     name: stocktraderapp
@@ -101,7 +112,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.340733+08:00"
+    created: "2019-07-09T17:04:11.698041+08:00"
     description: A Helm chart for StockTrader Application
     digest: 02196ee64bd73275e2abb7dc365a102775e6cf75f756db8ccb74a8c496e6b199
     name: stocktraderapp
@@ -111,11 +122,11 @@ entries:
   trader:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-09T15:52:32.341899+08:00"
+    created: "2019-07-09T17:04:11.699286+08:00"
     description: A Helm chart for trader component in StockTrader
     digest: bead9624e7fc0e8a74525da867017222d06d504c5e2ba8c00f496f538cd0d283
     name: trader
     urls:
     - https://raw.githubusercontent.com/cloudnativedemo/stocktrader-helm/master/charts/trader-0.1.0.tgz
     version: 0.1.0
-generated: "2019-07-09T15:52:32.336948+08:00"
+generated: "2019-07-09T17:04:11.69099+08:00"
